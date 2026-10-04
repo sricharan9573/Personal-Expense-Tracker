@@ -1,0 +1,1 @@
+- [Workspace package installs](package-install-scope.md) — package-install callback did not support targeting a workspace artifact; check scope before retrying.

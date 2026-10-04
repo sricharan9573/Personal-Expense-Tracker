@@ -1,0 +1,70 @@
+Build a modern, responsive **Personal Expense Tracker Web Application** using HTML, CSS, and JavaScript.
+
+### Project Requirements
+
+**1. Dashboard**
+- Create a clean, professional dashboard with a modern UI.
+- Display three summary cards:
+  - Total Balance
+  - Total Income
+  - Total Expenses
+- Use green for income, red for expenses, and blue for the balance.
+- Add a spending overview chart.
+
+**2. Add Transactions**
+- Create a form to add new transactions.
+- Include the following fields:
+  - Transaction description
+  - Amount in Indian Rupees (₹)
+  - Transaction type (Income or Expense)
+  - Category (Food, Travel, Shopping, Education, Salary, Entertainment, Bills, Other)
+  - Transaction date
+- Add an Add Transaction button.
+- Validate all inputs and prevent negative or invalid amounts.
+
+**3. Transaction History**
+- Display all transactions in a clean table or list.
+- Show description, category, date, type, and amount.
+- Add options to delete and edit transactions.
+- Include search and category filters.
+- Sort transactions by date, newest first.
+
+**4. Financial Calculations**
+- Automatically calculate total income, total expenses, and remaining balance.
+- Update the dashboard immediately whenever a transaction is added, edited, or deleted.
+- Display monthly spending summaries.
+- Show expense breakdowns by category using charts.
+
+**5. Data Storage**
+- Use browser localStorage to save transactions.
+- Ensure data remains available after refreshing the page.
+- Organize JavaScript code into reusable functions.
+
+**6. UI and Design**
+- Use a professional financial dashboard design.
+- Choose a light theme with white backgrounds, blue highlights, and green and red indicators.
+- Add a responsive sidebar with Dashboard, Transactions, Analytics, and Settings navigation.
+- Include icons, subtle animations, rounded cards, and smooth transitions.
+- Make the application mobile-friendly and tablet-friendly.
+- Use a clean font and maintain consistent spacing.
+
+**7. Additional Features**
+- Add a monthly budget setting.
+- Display a progress bar showing budget usage.
+- Show a warning when expenses exceed the monthly budget.
+- Add an option to export transaction history as a CSV file.
+- Include a reset option with a confirmation dialog.
+
+### Technical Requirements
+- Use HTML, CSS, and vanilla JavaScript.
+- Use Chart.js for visualizations.
+- Do not use a backend for this initial version.
+- Keep the code organized into separate files: index.html, style.css, and script.js.
+- Make all buttons, forms, filters, and navigation functional.
+- Add sample transactions so the dashboard is not empty when first opened.
+- Ensure there are no console errors.
+
+### Final Goal
+Build a fully functional Personal Expense Tracker that looks like a real financial management application rather than a basic student project. Prioritize functionality, clean code, attractive design, and a smooth user experience.
+
+After building the application, explain the project structure, how the calculations work, and how to run and test the project in Replit.
